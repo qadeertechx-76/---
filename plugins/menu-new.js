@@ -11,9 +11,9 @@ cmd({
     filename: __filename
 }, async (conn, mek, m, { from, reply }) => {
     try {
-        const menuCaption = `╭━━━〔 *${config.BOT_NAME}* 〕━━━┈⊷
+        const menuCaption = `╭━━━〔 *${config.𝐐𝐀𝐃𝐄𝐄𝐑~𝐐𝐌𝐃}* 〕━━━┈⊷
 ┃★╭──────────────
-┃★│ 👑 Owner : *${config.OWNER_NAME}*
+┃★│ 👑 Owner : *${config.𝐐𝐀𝐃𝐄𝐄𝐑~𝐐𝐌𝐃}*
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
 📋 *ᴄʜᴏᴏsᴇ ᴀ ᴄᴀᴛᴇɢᴏʀʏ ᴛᴏ ᴇxᴘʟᴏʀᴇ:*
@@ -39,8 +39,8 @@ cmd({
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363348739987203@newsletter',
-                newsletterName: config.OWNER_NAME,
+                newsletterJid: '120363424804601329@newsletter',
+                newsletterName: config.𝐐𝐀𝐃𝐄𝐄𝐑~𝐐𝐌𝐃,
                 serverMessageId: 143
             }
         };
@@ -51,7 +51,7 @@ cmd({
                 return await conn.sendMessage(
                     from,
                     {
-                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/yj7zp0.png' },
+                        image: { url: config.MENU_IMAGE_URL || 'https://files.catbox.moe/ib9h2g.jpg' },
                         caption: menuCaption,
                         contextInfo: contextInfo
                     },
