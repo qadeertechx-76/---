@@ -10,8 +10,8 @@ cmd({
 }, 
 async (conn, mek, m, { from }) => {
     try {
-        const ownerNumber = config.OWNER_NUMBER; // Fetch owner number from config
-        const ownerName = config.OWNER_NAME;     // Fetch owner name from config
+        const ownerNumber = config.923369423531; // Fetch owner number from config
+        const ownerName = config.𝐐𝐀𝐃𝐄𝐄𝐑~𝐐𝐌𝐃;     // Fetch owner name from config
 
         const vcard = 'BEGIN:VCARD\n' +
                       'VERSION:3.0\n' +
